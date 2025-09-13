@@ -1,9 +1,14 @@
 .students{
-    height: 30vh;
-    width: 50vh;
+    height: 50vh;
+    width: 70vh;
 }
 
 .institutions{
-    height: 30vh;
-    width: 50vh;
+    height: 50vh;
+    width: 70vh;
 }
+
+.dropdown-menu p {
+  margin-left: 20px;  
+}
+
