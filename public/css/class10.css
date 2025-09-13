@@ -1,0 +1,8 @@
+.class_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-link{
+    text-decoration: none;
+}
