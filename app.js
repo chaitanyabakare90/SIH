@@ -21,6 +21,9 @@ app.get("/login",(req,res)=>{
 app.get("/signup",(req,res)=>{
     res.render("users/signup.ejs")
 })
+app.get("/class10",(req,res)=>{
+    res.render("class10.ejs");
+})
 
 app.listen(3000,(req,res)=>{
     console.log("app listening at port 3000")
