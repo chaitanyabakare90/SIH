@@ -14,8 +14,12 @@ app.get("/",(req,res)=>{
     res.render("index.ejs")
 })
 
-app.get("/class10",(req,res)=>{
-    res.render("class10.ejs");
+app.get("/login",(req,res)=>{
+    res.render("users/login.ejs")
+})
+
+app.get("/signup",(req,res)=>{
+    res.render("users/signup.ejs")
 })
 
 app.listen(3000,(req,res)=>{
