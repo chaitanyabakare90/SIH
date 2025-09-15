@@ -1,0 +1,47 @@
+body {
+  background-color: #d0def4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px; 
+}
+
+.login-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+}
+
+.login-card h2 {
+  color: #4c81d2;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.btn-glow {
+  background: #4c81d2;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-glow:hover {
+  background: #3a68a9;
+  box-shadow: 0px 0px 10px rgba(76, 129, 210, 0.6);
+}
